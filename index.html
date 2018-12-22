@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Cover Designer</title>
+	<link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
+	
+	<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+
+<link href='https://fonts.googleapis.com/css?family=Alef' rel='stylesheet'>
+
+<link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
+
+
+	<link rel="stylesheet" type="text/css" href="./index.css">
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-text">
+Book Cover Designer  </span>
+</nav>
+
+<div class="section1">
+
+<form method="POST" class="form-inline" onsubmit="return false;" autocomplete=off>
+  
+  <label><button class="btn-form">Book Title</button> </label>
+  <input type="text" id="input-title" name="email" class="input-form"> <br>
+
+  <label><button class="btn-form">Book Subtitle</button> </label>
+  <input type="text" id="input-subtitle" class="input-form"><br>
+
+  <label><button class="btn-form">Author Name</button> </label>
+  <input type="text" id="input-author" class="input-form"><br>
+
+   <label><button class="btn-form">Background Color</button> </label>
+  <input type="text" id="input-background" class="input-form"><br>
+
+   <label><button class="btn-form">Publisher</button> </label>
+  <input type="text" id="input-publisher" class="input-form"><br>
+
+  <label><button class="btn-form">Publishing Year</button> </label>
+  <select id="year" class="input-form"></select><br>
+<div id="checkbox">
+  <input id="check" type="checkbox" name="random-background" value="random-background"> Generate a random cover design<br>
+</div>
+  <button id="Generate">Generate</button>
+</form>
+
+</div>
+
+
+
+<div class="section2" id="section2">
+	<div class="parent-div" id="parent-div">
+		<div class="title">
+			<p id="book-title">Book Title</p>
+		</div>
+		<br>
+		
+		<div class="subtitle">
+			<p id="book-subtitle">Book Subtitle</p>
+		</div>
+		<br>
+
+		<div class="author">
+			<p id="author">Author Name</p>
+		</div>
+		<br>
+
+		<div class="publisher">
+			<p id="publisher">Publisher</p>
+		</div>
+		<br>
+
+		<div class="publishyear">
+			<p id="publishyear">Publishing Year</p>
+		</div>
+		<br>
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
